@@ -1,0 +1,33 @@
+.map-selected {
+    fill: #E3DA37;
+  }
+   
+  .map-unselected {
+    fill: #699EAA;
+  }
+   
+  .map-selected:hover, .map-unselected:hover {
+    cursor: pointer;
+  }
+
+  .foodList {
+    display: grid;
+    grid-template-columns: 40% 10% 40%;
+    
+  }
+
+  .dish {
+    grid-column-start:3;
+  }
+  
+  .originCheck{
+    right:90%;
+    
+
+  }
+  
+  .country:hover{
+    color:red;
+    cursor: pointer;
+
+  }
